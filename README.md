@@ -2,11 +2,11 @@
 
 <div align="center">
 
-![Calculator Preview](https://via.placeholder.com/800x400?text=Scientific+Calculator+Preview)
+![Calculator Preview](assets/calculator-preview.png)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Made with Love](https://img.shields.io/badge/Made%20with-♥-ff69b4.svg)](https://github.com/Nightland4509)
-![Last Updated](https://img.shields.io/badge/last%20updated-April%202025-brightgreen)
+![Last Updated](https://img.shields.io/badge/last%20updated-2025--04--18-brightgreen)
 [![Languages](https://img.shields.io/badge/languages-HTML%20%7C%20CSS%20%7C%20JavaScript-yellow.svg)](#features)
 
 **A beautiful, responsive scientific calculator with advanced mathematical functions and multilingual support.**
@@ -67,6 +67,11 @@ const techStack = {
         responsive: "Mobile-first approach",
         accessibility: "WCAG compliant",
         performance: "Optimized calculations"
+    },
+    files: {
+        css: ["main.css", "buttons.css"],
+        javascript: "app.js",
+        html: "index.html"
     }
 };
 ```
@@ -99,18 +104,22 @@ cd scientific-calculator
 
 ## 📖 Usage
 
-### Basic Mode
+### Standard Mode
 ```
-1. Click numbers to input
-2. Use operators for calculations
-3. Press '=' for result
-4. 'C' to clear
+1. Open index.html in your browser
+2. Use number keys for input
+3. Use operators for calculations
+4. Press '=' for result
+5. 'C' to clear
 ```
 
 ### Scientific Mode
 ```
 1. Switch to Scientific mode
-2. Access advanced functions
+2. Access advanced functions:
+   - Trigonometric functions (sin, cos, tan)
+   - Logarithmic functions (log, ln)
+   - Powers and roots (x^y, √x, ∛x)
 3. Choose angle mode (DEG/RAD/GRAD)
 4. Perform complex calculations
 ```
@@ -121,16 +130,55 @@ cd scientific-calculator
 
 | Light Theme | Dark Theme |
 |:-----------:|:---------:|
-| ![Light](https://via.placeholder.com/200x150?text=Light+Theme) | ![Dark](https://via.placeholder.com/200x150?text=Dark+Theme) |
+| ![Light](assets/light-theme.png) | ![Dark](assets/dark-theme.png) |
 
 </div>
 
+## 📁 Project Structure
+
+```plaintext
+scientific-calculator/
+├── assets/
+│   ├── main.css         # Main styles
+│   ├── buttons.css      # Button-specific styles
+│   ├── app.js          # Calculator logic
+│   ├── light-theme.png
+│   ├── dark-theme.png
+│   └── calculator-preview.png
+├── responsive/
+│   ├── Mobile.png      # Mobile view screenshot
+│   ├── Tablet.png      # Tablet view screenshot
+│   └── Desktop.png     # Desktop view screenshot
+├── index.html          # Main HTML file
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
 ## ⚡ Performance
 
-- Lightweight: < 100KB total size
-- Fast calculations
-- Smooth animations
+- **Lightweight**
+  - Total size < 100KB
+  - No external dependencies
+  - Optimized assets
+
+- **Fast Operations**
+  - Instant calculations
+  - Smooth animations
+  - Efficient memory usage
+
+- **Browser Support**
+  - Chrome 80+
+  - Firefox 75+
+  - Safari 13+
+  - Edge 80+
+
+## 🔒 Security
+
+- Input validation
+- XSS protection
 - No external dependencies
+- Secure mathematical evaluations
 
 ## 🤝 Contributing
 
@@ -139,6 +187,13 @@ cd scientific-calculator
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+### Contribution Guidelines
+- Write clean, documented code
+- Follow existing code style
+- Add appropriate comments
+- Test thoroughly before submitting
+- Update documentation if needed
 
 ## 📜 License
 
@@ -153,11 +208,28 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Give a ⭐️ if this project helped you!
 
+## 📝 Todo
+
+- [ ] Add more scientific functions
+- [ ] Implement memory functions
+- [ ] Add keyboard shortcuts
+- [ ] Create mobile app version
+- [ ] Add unit converter
+- [ ] Implement history export
+
+## 🔄 Recent Updates
+
+- Added dark/light theme toggle
+- Improved responsive design
+- Enhanced scientific functions
+- Added error handling
+- Optimized performance
+
 ---
 
 <div align="center">
 
 **Made with ❤️ by [Nightland4509](https://github.com/Nightland4509)**  
-Last Updated: 2025-04-18
+Last Updated: 2025-04-18 09:29:11 UTC
 
 </div>
