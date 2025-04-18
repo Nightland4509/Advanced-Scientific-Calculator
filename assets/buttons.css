@@ -1,0 +1,85 @@
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1.2rem;
+    border-radius: var(--button-radius);
+    padding: 1rem;
+    color: var(--text-primary);
+    background-color: var(--button-bg);
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-sm);
+    user-select: none;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.number {
+    background-color: var(--button-bg);
+    font-weight: 500;
+}
+
+.operator {
+    background-color: var(--operator-color);
+    color: white;
+    font-weight: 500;
+}
+
+.equals {
+    background-color: var(--equals-color);
+    color: white;
+    font-weight: 500;
+}
+
+.special {
+    background-color: var(--special-color);
+    color: white;
+    font-weight: 500;
+}
+
+.function {
+    background-color: var(--function-color);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* ریپل افکت */
+.ripple {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 0.6s linear;
+    pointer-events: none;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        font-size: 1rem;
+        min-height: 3rem;
+        padding: 0.75rem;
+    }
+
+    .function {
+        font-size: 0.9rem;
+    }
+}

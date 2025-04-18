@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calc-header">
+            <div class="mode-toggle">
+                <button id="standardMode" class="mode-btn active">Standard</button>
+                <button id="scientificMode" class="mode-btn">Scientific</button>
+            </div>
+            <div class="theme-toggle">
+                <button id="themeToggle">🌙</button>
+            </div>
+        </div>
+
+        <div class="display">
+            <div class="expression"></div>
+            <div class="result">0</div>
+        </div>
+
+        <div class="angle-mode">
+            <button class="angle-btn active" data-mode="deg">DEG</button>
+            <button class="angle-btn" data-mode="rad">RAD</button>
+            <button class="angle-btn" data-mode="grad">GRAD</button>
+        </div>
+
+        <div class="keypad">
+            <!-- Scientific Functions - Hidden by default -->
+            <div class="scientific-keys hidden">
+                <button class="function" data-fn="sin">sin</button>
+                <button class="function" data-fn="cos">cos</button>
+                <button class="function" data-fn="tan">tan</button>
+                <button class="function" data-fn="log">log</button>
+                
+                <button class="function" data-fn="sinh">sinh</button>
+                <button class="function" data-fn="cosh">cosh</button>
+                <button class="function" data-fn="tanh">tanh</button>
+                <button class="function" data-fn="ln">ln</button>
+                
+                <button class="function" data-fn="pow">x^y</button>
+                <button class="function" data-fn="sqrt">√</button>
+                <button class="function" data-fn="cbrt">∛</button>
+                <button class="function" data-fn="fact">n!</button>
+
+                <button class="function" data-fn="pi">π</button>
+                <button class="function" data-fn="e">e</button>
+                <button class="function" data-fn="abs">|x|</button>
+                <button class="function" data-fn="mod">mod</button>
+            </div>
+
+            <!-- Standard Keys -->
+            <div class="standard-keys">
+                <button class="special">C</button>
+                <button class="special">CE</button>
+                <button class="special">⌫</button>
+                <button class="operator">÷</button>
+
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">×</button>
+
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">-</button>
+
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">+</button>
+
+                <button class="special">±</button>
+                <button class="number">0</button>
+                <button class="number">.</button>
+                <button class="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
