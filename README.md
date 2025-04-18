@@ -75,7 +75,7 @@ const techStack = {
 
 | Mobile | Tablet | Desktop |
 |:------:|:------:|:-------:|
-| <img src="responsive/mobile.png" width="100" alt="Mobile View"> | <img src="responsive/Tablet.png" width="200" alt="Tablet View"> | <img src="responsive/desktop.png" width="300" alt="Desktop View"> |
+| <img src="responsive/Mobile.png" width="100" alt="Mobile View"> | <img src="responsive/Tablet.png" width="200" alt="Tablet View"> | <img src="responsive/Desktop.png" width="300" alt="Desktop View"> |
 
 ## 🚀 Getting Started
 
