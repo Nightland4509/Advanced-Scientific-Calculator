@@ -75,7 +75,7 @@ const techStack = {
 
 | Mobile | Tablet | Desktop |
 |:------:|:------:|:-------:|
-| <img src="https://via.placeholder.com/200x400?text=Mobile" width="100"> | <img src="https://via.placeholder.com/400x300?text=Tablet" width="200"> | <img src="https://via.placeholder.com/600x400?text=Desktop" width="300"> |
+| <img src="responsive/mobile.png" width="100" alt="Mobile View"> | <img src="responsive/Tablet.png" width="200" alt="Tablet View"> | <img src="responsive/desktop.png" width="300" alt="Desktop View"> |
 
 ## 🚀 Getting Started
 
@@ -157,6 +157,7 @@ Give a ⭐️ if this project helped you!
 
 <div align="center">
 
-**Made with ❤️ by [Nightland4509](https://github.com/Nightland4509)**
+**Made with ❤️ by [Nightland4509](https://github.com/Nightland4509)**  
+Last Updated: 2025-04-18
 
 </div>
