@@ -176,3 +176,22 @@ body {
         padding: 0.75rem;
     }
 }
+ /* Adding a global font-family */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Specific styling for calculator */
+.calculator {
+    font-size: 1.2rem;
+    font-weight: 400; /* Normal weight */
+}
+
+/* Buttons and displays */
+button, .display {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium weight */
+    font-size: 1rem;
+}
